@@ -1,0 +1,5 @@
+create database lad;
+use lad;
+create table info(pri char(255) primary key,dop date not null,dos date not null,make text not null,regdno text not null,chassisno text not null,engineno text not null,model text not null,purchasedfrom text not null,purchasedaddress text not null,purchasedphone text not null,purchasedwitness text not null,purchasedwitnessaddress text not null,purchasedwitnessphone text not null,purchasedtime text not null,soldto text not null,soldaddress text not null,soldphone text not null,soldwitness text not null,soldwitnessaddress text not null,soldwitnessphone text not null,soldtime text not null,extra text not null);
+
+create table profile(account char(225) primary key,password text);
